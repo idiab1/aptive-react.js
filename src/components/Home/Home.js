@@ -1,13 +1,14 @@
 import React from 'react'
 import Hero from '../Hero/Hero';
 import Navbar from '../Navbar/Navbar';
-import "./Home.css";
+import Pricing from '../Pricing/Pricing';
 
 const Home = () => {
   return (
     <div>
         <Navbar />
         <Hero />
+        <Pricing />
     </div>
   )
 }
