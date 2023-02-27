@@ -20,12 +20,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.container {
-  min-width: 1240px;
-  padding: 0 1rem;
-  margin: auto;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
