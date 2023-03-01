@@ -97,7 +97,7 @@
     padding: 0 10px;
 }
 
-form input {
+.hero form input {
     display: block;
     width: 100%;
     margin: 1.2rem 0;
@@ -106,7 +106,7 @@ form input {
     border-radius: 4px;
 }
 
-form button {
+.hero form button {
     display: block;
     width: 100%;
     margin: 1.2rem 0;
@@ -114,7 +114,14 @@ form button {
     color: #fff;
     border-radius: 4px;
     border: none;
+    cursor: pointer;
+    border: 1px solid var(--primary);
     background-color: var(--primary);
+}
+
+.hero form button:hover {
+    border: 1px solid var(--secondary);
+    background-color: var(--secondary);
 }
 
 .hero .form-footer {
