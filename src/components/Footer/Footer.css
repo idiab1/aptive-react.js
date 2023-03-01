@@ -111,4 +111,32 @@
         padding-bottom: 1rem;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .footer .content .col-2 .subscribe form input {
+        width: 62%;
+        padding: 8px;
+        border: 1px solid var(--lightgrey);
+        border-radius: 4px;
+        margin-right: .7rem;
+    }
+    
+    .footer .content .col-2 .subscribe form button {
+        padding: 8px;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+        border: 1px solid var(--primary);
+        background-color: var(--primary);
+        width: 35%;
+    }
+
+
+    .copyrights {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .copyrights >div:first-of-type{
+        padding-bottom: 1rem;
+    }
 }
