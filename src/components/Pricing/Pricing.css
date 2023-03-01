@@ -1,0 +1,114 @@
+.pricing-section {
+    padding: 4rem 1rem;
+}
+
+.pricing-section .container {
+    min-width: 1240px;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+.pricing-section .content .content-top{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid var(--lightgrey);
+}
+
+.pricing-section .content .content-top .col-1 h2 {
+    font-size: 2.2rem;
+    padding-bottom: .5rem;
+}
+
+.pricing-section .content .content-top .col-1 p {
+    color: var(--grey);
+    font-size: 15px;
+}
+
+.pricing-section .content .content-top .col-2 button {
+    width: 100%;
+    padding: 8px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
+}
+
+.pricing-section .content .content-top .col-2 button:hover {
+    border: 1px solid var(--secondary);
+    background-color: var(--secondary);
+}
+
+.pricing-section .content .content-bottom {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 3rem;
+}
+
+.pricing-section .content .content-bottom  .col-1 span{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pricing-section .content .content-bottom  .col-1 h3{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.pricing-section .content .content-bottom  .col-1 p {
+    color: var(--grey);
+    font-size: 15px;
+}
+
+.pricing-section .content .content-bottom > .col-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pricing-section .content .content-bottom > .col-2 ul li {
+    color: var(--grey);
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--lightgrey);
+    margin-left: 1.7rem;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .pricing-section {
+        padding: 3rem 1rem;
+    }
+
+    .pricing-section .container {
+        min-width: calc(1240px/2);
+    }
+    
+    .pricing-section .content .content-top{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-section .content .content-top .col-1 h2 {
+        font-size: 1.5rem;
+    }
+
+    .pricing-section .content .content-top .col-1 p {
+        padding-bottom: .5rem;
+    }
+
+    .pricing-section .content .content-bottom {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-section .content .content-bottom > .col-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-section .content .content-bottom > .col-2 ul li {
+        margin-left: 0rem;
+    }
+    
+}
