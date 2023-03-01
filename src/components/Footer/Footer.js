@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import './Footer.css'
 
@@ -90,8 +91,15 @@ const Footer = () => {
             </div>
             <div className='copyrights'>
                 <div className='info'>
-                    <p>&copy; Workflow, Inc. All rights reserved. - Re-design by 
+                    <p>&copy; Workflow, Inc. All rights reserved | Re-design by 
                         <Link to='https://www.linkedin.com/in/islam-diab-47b98b176/'>Islam Diab</Link></p>
+                </div>
+                <div className='social-media'>
+                    <ul>
+                        <li><Link to="https://www.linkedin.com/in/islam-diab-47b98b176/"><FaLinkedin size={20}/></Link></li>
+                        <li><Link to="https://github.com/islamdiab-stack"><FaGithub size={20}/></Link></li>
+                        <li><Link to="https://www.facebook.com/islamdiab967/"><FaFacebook size={20}/></Link></li>
+                    </ul>
                 </div>
             </div>
         </div>
