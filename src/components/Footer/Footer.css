@@ -1,0 +1,114 @@
+.footer {
+    padding: 2.5rem 1rem;
+    color: var(--grey);
+    background-color: var(--darkgrey);
+}
+
+.footer .container {
+    min-width: 1240px;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+.footer .content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-bottom: 2.5rem;
+}
+
+.footer .content .col-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer .content .col-1 .links h5,
+.footer .content .col-2 .subscribe h5 {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.footer .content .col-2 .subscribe p {
+    font-size: 15px;
+    padding-bottom: 5px;
+
+}
+
+.footer .content .col-1 .links ul li{
+    padding-bottom: .65rem;
+}
+
+.footer .content .col-1 .links ul li a{
+    font-size: 15px;
+    color: var(--lightgrey);
+}
+
+.footer .content .col-2 .subscribe form input {
+    width: 62%;
+    padding: 8px;
+    border: 1px solid var(--lightgrey);
+    border-radius: 4px;
+    margin-right: .7rem;
+}
+
+.footer .content .col-2 .subscribe form button {
+    padding: 8px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
+    width: 35%;
+}
+
+.footer .content .col-2 .subscribe form button:hover {
+    border: 1px solid var(--secondary);
+    background-color: var(--secondary);
+}
+
+/* Copyright */
+.copyrights{
+    padding-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--grey);
+} 
+.copyrights .info p {
+    color: var(--grey);
+    font-size: 14px;
+}
+.copyrights .info p a {
+    color: var(--grey);
+    padding-left: .5rem;
+}
+.copyrights .social-media ul li {
+    color: var(--grey);
+    display: inline-block;
+}
+.copyrights .social-media ul li a{
+    color: var(--grey);
+}
+
+.copyrights .social-media ul li:nth-of-type(2) {
+    padding: 0 .7rem
+}
+
+
+@media screen and (max-width: 960px) {
+    .footer {
+        width: 100%
+    }
+    .footer .container {
+        min-width: calc(1240px/2);
+    }
+
+    .footer .content {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 2.5rem;
+    }
+
+    .footer .content .col-1 {
+        padding-bottom: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
