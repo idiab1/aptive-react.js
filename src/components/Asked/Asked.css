@@ -47,11 +47,16 @@
     }
 
     .asked-section .content {
+        text-align: center;
         grid-template-columns: 1fr;
     }
 
     .asked-section .content .col-1 h2 {
         font-size: 1.4rem;
+    }
+
+    .asked-section .content .col-2 ul {
+        padding-top: 1rem;
     }
 
     .asked-section .content .col-2 ul li {
