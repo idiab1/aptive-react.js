@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaEnvelope, FaPhone } from 'react-icons/fa'
-
+import './ContactUs.css'
 const ContactUs = () => {
   return (
     <div className='contact-section'>
